@@ -3,6 +3,6 @@ Rails.application.routes.draw do
   get 'text' => 'text#index'
   post 'text' => 'text#create'
   
-  get 'result' => 'text#result'
-  post 'result' => 'text#result'
+  get 'messages' => 'text#messages'
+  post 'messages' => 'text#messages'
 end

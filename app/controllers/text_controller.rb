@@ -7,10 +7,10 @@ end
 def create 
 	$message = params[:text]
 	#Text.create(:text => $message)
-	render plain: "localhost:3000/result"
+	render plain: "https://message-encrypter.herokuapp.com/messages"
 end
 
-def result
+def messages
 	render plain: $message
 end
 
