@@ -1,0 +1,6 @@
+<h1>Input text here</h1>
+
+<%= form_tag({}, multipart: true) do %>
+	<%= text_area_tag 'text' %>
+	<%= submit_tag 'Upload text' %>
+	<% end %>
